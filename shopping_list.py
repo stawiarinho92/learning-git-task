@@ -6,3 +6,4 @@ for shop, product in shopping_list.items():
 products = 0
 for values in shopping_list.values():
     products += len(values)
+print(f"W sumie kupuję {products} produktów.")
